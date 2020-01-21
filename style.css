@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/**
+** Defaulting
+**/
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 100px;
+  background-image: url(https://i.imgur.com/ZOcLM7h.jpg);
+  background-repeat: repeat;
+}
+
+#zen-intro > header > h1 {
+  text-align: center;
+  font-size: 4.0em;
+  background-image: url(https://i.dlpng.com/static/png/6334099_preview.png);
+  filter: opacity(0.5);
+}
+
+#css-zen-garden > div{
+  background-color: rgba(74, 74, 74, 0.5);
+  padding: 10px;
+}
+
+#zen-intro > header > h2 {
+  text-align: center;
+}
+
+#zen-summary {
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 100px;
+}
+
+#zen-explanation > h3, #zen-participation > h3{
+  padding: 20px;
+}
+
+#zen-explanation, #zen-participation{
+  display: flex;
+}
+
+#css-zen-garden > div > aside > div {
+  margin-top: 50px;
+  display: flex;
+  padding-left: 50px;
+}
+
+/**
+** Getting Rid Of Links
+**/
+
+#zen-summary > p:nth-child(2) > a:nth-child(1){
+  text-decoration: none;
+  color: inherit;
+}
+
+#zen-summary > p:nth-child(2) > a:nth-child(2){
+  text-decoration: none;
+  color: inherit;
+}
+
+#design-selection > nav > ul > li > a , #design-archives > nav > ul > li > a, #zen-resources > ul > li > a {
+  text-decoration: none;
+  color: inherit;
+}
